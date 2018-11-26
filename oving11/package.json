@@ -1,0 +1,23 @@
+{
+  "name": "react-state",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "node ./scripts/enable_babelrc.js",
+    "start": "react-scripts start"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.0.4",
+    "react-select": "^2.1.0",
+    "react-simplified": "^1.5.1",
+    "history": "latest",
+    "react-dom": "latest"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

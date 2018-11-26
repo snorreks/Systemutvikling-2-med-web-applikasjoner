@@ -1,0 +1,79 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-color: yellow;
+    margin: 0;
+}
+
+/* Header*/
+.header {
+    font-size: 40px;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    background-image: url("sadcat.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    background-position: center;
+    height: 360px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* main column */
+.column {
+    float: left;
+}
+
+/* Left column */
+.column.right {
+    width: 70%;
+}
+
+/* Left column */
+
+.column.left {
+    width: 30%;
+}
+
+/* Menu */
+.menu {
+    overflow: hidden;
+    background: #555555;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Tilpassing for mobil*/
+/*
+@media (min-width: 401px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    .topnav a {
+        float: none;
+        padding: 100%;
+    }
+}
+*/
